@@ -1,0 +1,15 @@
+.editor #menu-posts-customhtml,
+.editor #menu-posts-custom,
+.editor #menu-posts-elements,
+.editor #menu-media,
+.editor #menu-comments,
+.editor #menu-tools,
+.editor #menu-posts,
+.editor #dashboard-widgets-wrap,
+.editor #screen-meta-links,
+.editor #collapse-menu {display: none}
+
+
+.editor #menu-posts-sh_filer .wp-submenu li:nth-last-child(-n+4) {
+	display: none;
+}
