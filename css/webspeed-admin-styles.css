@@ -9,7 +9,8 @@
 .editor #screen-meta-links,
 .editor #collapse-menu,
 .editor #toplevel_page_wpseo_workouts,
-.editor #toplevel_page_wpcf7 {display: none}
+.editor #toplevel_page_wpcf7,
+.editor #menu-users {display: none}
 
 
 .editor #menu-posts-sh_filer .wp-submenu li:nth-last-child(-n+4) {
