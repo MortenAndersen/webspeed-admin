@@ -8,7 +8,8 @@
 .editor #dashboard-widgets-wrap,
 .editor #screen-meta-links,
 .editor #collapse-menu,
-.editor #toplevel_page_wpseo_workouts {display: none}
+.editor #toplevel_page_wpseo_workouts,
+.editor #toplevel_page_wpcf7 {display: none}
 
 
 .editor #menu-posts-sh_filer .wp-submenu li:nth-last-child(-n+4) {
