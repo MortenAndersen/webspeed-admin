@@ -10,12 +10,7 @@
 .editor #collapse-menu,
 .editor #toplevel_page_wpseo_workouts,
 .editor #toplevel_page_wpcf7,
-.editor #menu-users {display: none}
-
-
-.editor #wp-admin-bar-wpseo-menu,
-.editor #wp-admin-bar-comments,
-.editor #wp-admin-bar-search {display: none;}
+.editor #menu-users {display: none;}
 
 .editor #menu-posts-sh_filer .wp-submenu li:nth-last-child(-n+4) {
 	display: none;

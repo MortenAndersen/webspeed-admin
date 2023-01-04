@@ -12,19 +12,25 @@ Author URI: https://www.web.dk.dk
 
 
 add_action( 'admin_enqueue_scripts', 'load_admin_style' );
-function load_admin_style() {
 
+function load_admin_style() {
     wp_register_style('webspeed-admin-styles', plugins_url('/css/webspeed-admin-styles.css',__FILE__));
     wp_enqueue_style('webspeed-admin-styles');
-    
 }
 
 
+// ----------------------------------------------
 
-/**
- * Add User Role Class to Body
- * Referenced code from http://www.studiok40.com/
- */
+add_action('wp_enqueue_scripts', 'load_admin_style_front');
+
+function load_admin_style_front() {
+    wp_register_style('webspeed-admin-styles-front', plugins_url('/css/webspeed-admin-styles-front.css',__FILE__));
+    wp_enqueue_style('webspeed-admin-styles-front');
+}
+
+// ----------------------------------------------
+
+
 function print_user_classes() {
     if ( is_user_logged_in() ) {
         add_filter('body_class','class_to_body');

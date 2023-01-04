@@ -1,0 +1,3 @@
+.editor #wp-admin-bar-wpseo-menu,
+.editor #wp-admin-bar-comments,
+.editor #wp-admin-bar-search {display: none;}
